@@ -1,0 +1,10 @@
+/*SASS - SINTAXIS */
+/*Puedo anidar selectores*/
+//ESTO ES UN COMENTARIO (no se compila al css)
+/*esto es un comentario en bloque*/
+/*Puedo utilizar VARIABLES*/
+/* Puedo realizar operacionjes matematicas*/
+/*Puedo organizar mi codigo en Partials*/
+
+@import "variables", "header", "condicionales", "bucles", "maps", "extend", "mixin"
+

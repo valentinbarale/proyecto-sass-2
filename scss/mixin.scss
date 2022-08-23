@@ -1,0 +1,25 @@
+/* MIXIN */
+/* Los mixin pueden ser con parametros o sin parametros */
+
+/* MIXIN SIN PARAMETROS */
+
+@mixin parrafos {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 2rem;
+    text-align: center;
+}
+
+.parrafosConEstilo {
+    @include parrafos;
+}
+
+/* MIXIN CON PARAMETROS */
+
+@mixin parrafoConParametros($size, $alineacion) {
+    font-size: $size;
+    text-align: $alineacion;
+}
+
+.parrafosConHambre {
+    @include parrafoConParametros(50px, right);
+}

@@ -1,0 +1,32 @@
+/* BUCLES */
+
+/* Este bucle for me va a escribir estilos para las etiquetas h2 hasta h6*/
+
+@for $i from 2 to 7 {
+    h#{$i} {
+        font-size: 2rem * $i;
+    }
+
+}
+
+/* "to"= un valor antes
+"through"= el valor escrito en pantalla */
+
+/* $i = 2
+$i = 3
+$i = 4 
+$i = 5
+$i = 6 */
+
+
+/* EACH */
+
+// Lo usamos con listas  
+$colores: 'pink', 'green','black';
+
+@each $color in $colores {
+    .#{$color} {
+        color: #{$color};
+    }
+}
+

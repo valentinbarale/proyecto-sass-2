@@ -1,0 +1,35 @@
+/*CONDICIONALES*/
+
+/*  si algo es verdadero {
+
+  } */
+
+$vista: valentin;
+
+/* @if ($vista == escritorio) {
+    body {
+        background-color: gray;
+    }
+}@else if  ($vista == movil) {
+    body {
+        background-color: hotpink;
+    }
+}@else if ($vista == tablet){
+    body {
+        background-color: indigo;
+    }
+}@else {
+    body {
+        background-color: bisque;
+    }
+}
+ */
+body {
+    @if ($vista == escritorio){
+        background-color: red;
+    }@else if ($vista == movil){
+        background-color: darkgreen;
+    }@else {
+        background-color: aqua;
+    }
+}

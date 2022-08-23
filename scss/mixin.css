@@ -1,0 +1,14 @@
+/* MIXIN */
+/* Los mixin pueden ser con parametros o sin parametros */
+/* MIXIN SIN PARAMETROS */
+.parrafosConEstilo {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-size: 2rem;
+  text-align: center;
+}
+
+/* MIXIN CON PARAMETROS */
+.parrafosConHambre {
+  font-size: 50px;
+  text-align: right;
+}/*# sourceMappingURL=mixin.css.map */
